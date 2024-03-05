@@ -1,0 +1,1119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3700D72C2AF706CE00DA0DA8 /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D72B2AF706CE00DA0DA8 /* validation.swift */; };
+		3700D72E2AF7378000DA0DA8 /* onboardingFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D72D2AF7378000DA0DA8 /* onboardingFood.swift */; };
+		3700D7302AF7420700DA0DA8 /* onboardingCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D72F2AF7420700DA0DA8 /* onboardingCity.swift */; };
+		3700D7322AF8A29000DA0DA8 /* onboardingProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D7312AF8A29000DA0DA8 /* onboardingProfile.swift */; };
+		3700D7342AF9366C00DA0DA8 /* forgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700D7332AF9366C00DA0DA8 /* forgotPasswordVC.swift */; };
+		370CAD162B59A26C00E3EEE3 /* topTenSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370CAD152B59A26C00E3EEE3 /* topTenSaved.swift */; };
+		371999802B4DEE17008A9E03 /* DotsLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 3719997F2B4DEE17008A9E03 /* DotsLoading.json */; };
+		372804F02B4B99FF008F4930 /* visitedSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372804EF2B4B99FF008F4930 /* visitedSaved.swift */; };
+		372804F22B4B9CCE008F4930 /* visitedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372804F12B4B9CCE008F4930 /* visitedVC.swift */; };
+		372804F62B4BA19F008F4930 /* visitedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372804F52B4BA19F008F4930 /* visitedCell.swift */; };
+		372804F92B4DB5EC008F4930 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 372804F82B4DB5EC008F4930 /* Lottie */; };
+		372804FC2B4DB8C3008F4930 /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 372804FB2B4DB8C3008F4930 /* Loading.json */; };
+		37366C622AF98269001ED25B /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37366C612AF98269001ED25B /* user.swift */; };
+		3742A31F2B0F2D800065896B /* foodSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A31E2B0F2D800065896B /* foodSlider.swift */; };
+		3742A3242B0F32CD0065896B /* austinNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3232B0F32CD0065896B /* austinNeighborhoods.swift */; };
+		3742A3262B0F33460065896B /* newOrleansNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3252B0F33460065896B /* newOrleansNeighborhoods.swift */; };
+		3742A3282B11D0D60065896B /* bostonNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3272B11D0D60065896B /* bostonNeighborhoods.swift */; };
+		3742A32E2B162E120065896B /* accountDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A32D2B162E120065896B /* accountDetailsCell.swift */; };
+		3742A3302B16F7340065896B /* losAngelesNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A32F2B16F7340065896B /* losAngelesNeighborhoods.swift */; };
+		3742A3322B17801A0065896B /* miamiNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3312B17801A0065896B /* miamiNeighborhoods.swift */; };
+		3742A3342B17851F0065896B /* newYorkNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3332B17851F0065896B /* newYorkNeighborhoods.swift */; };
+		3742A3362B17A7A30065896B /* profileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3352B17A7A30065896B /* profileCell.swift */; };
+		3742A3382B17CD010065896B /* setSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3372B17CD010065896B /* setSection.swift */; };
+		3742A33A2B18DCAB0065896B /* profileDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742A3392B18DCAB0065896B /* profileDetailed.swift */; };
+		374D63D22AFB5269006A0442 /* alertCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D63D12AFB5269006A0442 /* alertCenter.swift */; };
+		375468432AFE8E1B00FA81BC /* searchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375468422AFE8E1B00FA81BC /* searchCell.swift */; };
+		3756C5F12AFAD3B2008D0A31 /* foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756C5F02AFAD3B2008D0A31 /* foods.swift */; };
+		3756C5F32AFAD69E008D0A31 /* foodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756C5F22AFAD69E008D0A31 /* foodCell.swift */; };
+		3756C5F52AFADF17008D0A31 /* cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756C5F42AFADF17008D0A31 /* cities.swift */; };
+		3756C5F72AFADFF9008D0A31 /* citiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3756C5F62AFADFF9008D0A31 /* citiesCell.swift */; };
+		375821FD2B067F4E00E289B5 /* foodIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375821FC2B067F4E00E289B5 /* foodIconCell.swift */; };
+		375821FF2B06851600E289B5 /* foodEmojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375821FE2B06851600E289B5 /* foodEmojis.swift */; };
+		376063212B5F6E9700557E59 /* followersAndFollwingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376063202B5F6E9700557E59 /* followersAndFollwingVC.swift */; };
+		376063232B60337400557E59 /* followersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376063222B60337400557E59 /* followersVC.swift */; };
+		376063252B60339A00557E59 /* followingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376063242B60339A00557E59 /* followingVC.swift */; };
+		376063272B603E6400557E59 /* followersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376063262B603E6400557E59 /* followersCell.swift */; };
+		376063292B603F5700557E59 /* followingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376063282B603F5700557E59 /* followingCell.swift */; };
+		3760632B2B605D5600557E59 /* allFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760632A2B605D5600557E59 /* allFriendsVC.swift */; };
+		3760632D2B62BD2B00557E59 /* allFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760632C2B62BD2B00557E59 /* allFriendsCell.swift */; };
+		3760632F2B62C0DB00557E59 /* nameAndUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760632E2B62C0DB00557E59 /* nameAndUID.swift */; };
+		376063312B62D8B100557E59 /* friendsProfileDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376063302B62D8B100557E59 /* friendsProfileDetailed.swift */; };
+		3768EB822AF53FA700C6DE64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768EB812AF53FA700C6DE64 /* AppDelegate.swift */; };
+		3768EB842AF53FA700C6DE64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768EB832AF53FA700C6DE64 /* SceneDelegate.swift */; };
+		3768EB892AF53FA700C6DE64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768EB872AF53FA700C6DE64 /* Main.storyboard */; };
+		3768EB8B2AF53FA900C6DE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3768EB8A2AF53FA900C6DE64 /* Assets.xcassets */; };
+		3768EB8E2AF53FA900C6DE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768EB8C2AF53FA900C6DE64 /* LaunchScreen.storyboard */; };
+		3768EB992AF53FAA00C6DE64 /* Foodie_Yelp_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768EB982AF53FAA00C6DE64 /* Foodie_Yelp_APITests.swift */; };
+		3768EBA32AF53FAA00C6DE64 /* Foodie_Yelp_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768EBA22AF53FAA00C6DE64 /* Foodie_Yelp_APIUITests.swift */; };
+		3768EBA52AF53FAA00C6DE64 /* Foodie_Yelp_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768EBA42AF53FAA00C6DE64 /* Foodie_Yelp_APIUITestsLaunchTests.swift */; };
+		3768EBB52AF5410300C6DE64 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBB42AF5410300C6DE64 /* FirebaseAnalytics */; };
+		3768EBB72AF5410300C6DE64 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBB62AF5410300C6DE64 /* FirebaseAuth */; };
+		3768EBB92AF5410300C6DE64 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBB82AF5410300C6DE64 /* FirebaseAuthCombine-Community */; };
+		3768EBBB2AF5410300C6DE64 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBBA2AF5410300C6DE64 /* FirebaseDatabase */; };
+		3768EBBD2AF5410300C6DE64 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBBC2AF5410300C6DE64 /* FirebaseDatabaseSwift */; };
+		3768EBBF2AF5410300C6DE64 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBBE2AF5410300C6DE64 /* FirebaseFirestore */; };
+		3768EBC12AF5410300C6DE64 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBC02AF5410300C6DE64 /* FirebaseFirestoreCombine-Community */; };
+		3768EBC32AF5410300C6DE64 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBC22AF5410300C6DE64 /* FirebaseFirestoreSwift */; };
+		3768EBC52AF5410300C6DE64 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBC42AF5410300C6DE64 /* FirebaseStorage */; };
+		3768EBC72AF5410300C6DE64 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3768EBC62AF5410300C6DE64 /* FirebaseStorageCombine-Community */; };
+		3768EBCA2AF54AE300C6DE64 /* loginOrSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768EBC92AF54AE300C6DE64 /* loginOrSignUpVC.swift */; };
+		376E2CE82AF957BF00B201B6 /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E2CE72AF957BF00B201B6 /* mapVC.swift */; };
+		378BEF7C2B0482C9005D91C8 /* changeCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378BEF7B2B0482C9005D91C8 /* changeCityCell.swift */; };
+		378C87B22B02A4BF00947117 /* restaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C87B12B02A4BE00947117 /* restaurantInfo.swift */; };
+		37943DF82AF69E1B00773318 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 37943DF72AF69E1B00773318 /* GoogleSignIn */; };
+		37943DFA2AF69E2100773318 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 37943DF92AF69E2100773318 /* GoogleSignInSwift */; };
+		37943DFC2AF6A04200773318 /* authService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37943DFB2AF6A04200773318 /* authService.swift */; };
+		37943DFE2AF6A16700773318 /* registerUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37943DFD2AF6A16600773318 /* registerUserRequest.swift */; };
+		37943E012AF6AC2E00773318 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37943E002AF6AC2E00773318 /* GoogleService-Info.plist */; };
+		37943E032AF6AE0A00773318 /* loginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37943E022AF6AE0A00773318 /* loginUserRequest.swift */; };
+		37943E062AF6B1F300773318 /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37943E052AF6B1F300773318 /* Homepage.storyboard */; };
+		3796A5542B62F93900B82627 /* secondFavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796A5532B62F93900B82627 /* secondFavoritesVC.swift */; };
+		3796A5562B62F98C00B82627 /* secondFavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796A5552B62F98C00B82627 /* secondFavoritesCell.swift */; };
+		3796A5582B635FE100B82627 /* secondVisitedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796A5572B635FE100B82627 /* secondVisitedVC.swift */; };
+		3796A55A2B63601200B82627 /* secondVisitedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3796A5592B63601200B82627 /* secondVisitedCell.swift */; };
+		379B4FF12AF56C6C00DD8649 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B4FF02AF56C6C00DD8649 /* loginVC.swift */; };
+		37A3F9E52AFD831300A90D8E /* foodAndCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3F9E42AFD831300A90D8E /* foodAndCity.swift */; };
+		37A3F9E72AFDE70D00A90D8E /* searchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3F9E62AFDE70D00A90D8E /* searchController.swift */; };
+		37A3F9EA2AFDE95200A90D8E /* homepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3F9E92AFDE95200A90D8E /* homepageVC.swift */; };
+		37AA5BAC2B5461FA002BD6A0 /* accountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA5BAB2B5461FA002BD6A0 /* accountSettings.swift */; };
+		37BB79B02B6AF1E200AA1C09 /* seeAllVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB79AF2B6AF1E200AA1C09 /* seeAllVC.swift */; };
+		37BB79B22B6BF33600AA1C09 /* seeAllCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB79B12B6BF33600AA1C09 /* seeAllCell.swift */; };
+		37DD29C72AFC1AF3002F4BA3 /* business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DD29C62AFC1AF3002F4BA3 /* business.swift */; };
+		37DD29C92AFC1E7E002F4BA3 /* fetchBusinessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DD29C82AFC1E7E002F4BA3 /* fetchBusinessInfo.swift */; };
+		37F8B00B2B1A4AF90088A682 /* profileDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8B00A2B1A4AF90088A682 /* profileDetailCell.swift */; };
+		37F8B00D2B1A5B0C0088A682 /* favoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8B00C2B1A5B0C0088A682 /* favoritesVC.swift */; };
+		37F8B00F2B1A5BF20088A682 /* favoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8B00E2B1A5BF20088A682 /* favoritesCell.swift */; };
+		37F8B0112B1AD38E0088A682 /* favoritesSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8B0102B1AD38E0088A682 /* favoritesSliderCell.swift */; };
+		37F8B0132B1E4C0E0088A682 /* favoritesSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8B0122B1E4C0E0088A682 /* favoritesSaved.swift */; };
+		37F8B0152B2B841E0088A682 /* popUpCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8B0142B2B841E0088A682 /* popUpCard.swift */; };
+		37FABCAC2B05128F00A573D3 /* chicagoNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FABCAB2B05128F00A573D3 /* chicagoNeighborhoods.swift */; };
+		37FABCAE2B05399700A573D3 /* seattleNeighborhoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FABCAD2B05399700A573D3 /* seattleNeighborhoods.swift */; };
+		37FABCB02B0542BE00A573D3 /* changeNeighborhoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FABCAF2B0542BE00A573D3 /* changeNeighborhoodCell.swift */; };
+		37FABCB22B05460100A573D3 /* changeNeighborhoodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FABCB12B05460100A573D3 /* changeNeighborhoodsVC.swift */; };
+		37FABCB42B05491600A573D3 /* changeCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FABCB32B05491600A573D3 /* changeCityVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3768EB952AF53FAA00C6DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3768EB762AF53FA700C6DE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3768EB7D2AF53FA700C6DE64;
+			remoteInfo = "Foodie Yelp API";
+		};
+		3768EB9F2AF53FAA00C6DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3768EB762AF53FA700C6DE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3768EB7D2AF53FA700C6DE64;
+			remoteInfo = "Foodie Yelp API";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3700D72B2AF706CE00DA0DA8 /* validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
+		3700D72D2AF7378000DA0DA8 /* onboardingFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingFood.swift; sourceTree = "<group>"; };
+		3700D72F2AF7420700DA0DA8 /* onboardingCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingCity.swift; sourceTree = "<group>"; };
+		3700D7312AF8A29000DA0DA8 /* onboardingProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingProfile.swift; sourceTree = "<group>"; };
+		3700D7332AF9366C00DA0DA8 /* forgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordVC.swift; sourceTree = "<group>"; };
+		370CAD152B59A26C00E3EEE3 /* topTenSaved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topTenSaved.swift; sourceTree = "<group>"; };
+		3719997F2B4DEE17008A9E03 /* DotsLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DotsLoading.json; path = ../../../../../Downloads/DotsLoading.json; sourceTree = "<group>"; };
+		372804EF2B4B99FF008F4930 /* visitedSaved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitedSaved.swift; sourceTree = "<group>"; };
+		372804F12B4B9CCE008F4930 /* visitedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitedVC.swift; sourceTree = "<group>"; };
+		372804F52B4BA19F008F4930 /* visitedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitedCell.swift; sourceTree = "<group>"; };
+		372804FB2B4DB8C3008F4930 /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Loading.json; path = ../../../../../Downloads/Loading.json; sourceTree = "<group>"; };
+		37366C612AF98269001ED25B /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		3742A31E2B0F2D800065896B /* foodSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodSlider.swift; sourceTree = "<group>"; };
+		3742A3232B0F32CD0065896B /* austinNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = austinNeighborhoods.swift; sourceTree = "<group>"; };
+		3742A3252B0F33460065896B /* newOrleansNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newOrleansNeighborhoods.swift; sourceTree = "<group>"; };
+		3742A3272B11D0D60065896B /* bostonNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bostonNeighborhoods.swift; sourceTree = "<group>"; };
+		3742A32D2B162E120065896B /* accountDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountDetailsCell.swift; sourceTree = "<group>"; };
+		3742A32F2B16F7340065896B /* losAngelesNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = losAngelesNeighborhoods.swift; sourceTree = "<group>"; };
+		3742A3312B17801A0065896B /* miamiNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miamiNeighborhoods.swift; sourceTree = "<group>"; };
+		3742A3332B17851F0065896B /* newYorkNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newYorkNeighborhoods.swift; sourceTree = "<group>"; };
+		3742A3352B17A7A30065896B /* profileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCell.swift; sourceTree = "<group>"; };
+		3742A3372B17CD010065896B /* setSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setSection.swift; sourceTree = "<group>"; };
+		3742A3392B18DCAB0065896B /* profileDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDetailed.swift; sourceTree = "<group>"; };
+		374D63D12AFB5269006A0442 /* alertCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertCenter.swift; sourceTree = "<group>"; };
+		375468422AFE8E1B00FA81BC /* searchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCell.swift; sourceTree = "<group>"; };
+		3756C5F02AFAD3B2008D0A31 /* foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foods.swift; sourceTree = "<group>"; };
+		3756C5F22AFAD69E008D0A31 /* foodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCell.swift; sourceTree = "<group>"; };
+		3756C5F42AFADF17008D0A31 /* cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cities.swift; sourceTree = "<group>"; };
+		3756C5F62AFADFF9008D0A31 /* citiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesCell.swift; sourceTree = "<group>"; };
+		375821FC2B067F4E00E289B5 /* foodIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodIconCell.swift; sourceTree = "<group>"; };
+		375821FE2B06851600E289B5 /* foodEmojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodEmojis.swift; sourceTree = "<group>"; };
+		376063202B5F6E9700557E59 /* followersAndFollwingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followersAndFollwingVC.swift; sourceTree = "<group>"; };
+		376063222B60337400557E59 /* followersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followersVC.swift; sourceTree = "<group>"; };
+		376063242B60339A00557E59 /* followingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followingVC.swift; sourceTree = "<group>"; };
+		376063262B603E6400557E59 /* followersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followersCell.swift; sourceTree = "<group>"; };
+		376063282B603F5700557E59 /* followingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followingCell.swift; sourceTree = "<group>"; };
+		3760632A2B605D5600557E59 /* allFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allFriendsVC.swift; sourceTree = "<group>"; };
+		3760632C2B62BD2B00557E59 /* allFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allFriendsCell.swift; sourceTree = "<group>"; };
+		3760632E2B62C0DB00557E59 /* nameAndUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameAndUID.swift; sourceTree = "<group>"; };
+		376063302B62D8B100557E59 /* friendsProfileDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsProfileDetailed.swift; sourceTree = "<group>"; };
+		3768EB7E2AF53FA700C6DE64 /* Foodie Yelp API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foodie Yelp API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3768EB812AF53FA700C6DE64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3768EB832AF53FA700C6DE64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3768EB882AF53FA700C6DE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3768EB8A2AF53FA900C6DE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3768EB8D2AF53FA900C6DE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3768EB8F2AF53FAA00C6DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3768EB942AF53FAA00C6DE64 /* Foodie Yelp APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foodie Yelp APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3768EB982AF53FAA00C6DE64 /* Foodie_Yelp_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodie_Yelp_APITests.swift; sourceTree = "<group>"; };
+		3768EB9E2AF53FAA00C6DE64 /* Foodie Yelp APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foodie Yelp APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3768EBA22AF53FAA00C6DE64 /* Foodie_Yelp_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodie_Yelp_APIUITests.swift; sourceTree = "<group>"; };
+		3768EBA42AF53FAA00C6DE64 /* Foodie_Yelp_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodie_Yelp_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3768EBC92AF54AE300C6DE64 /* loginOrSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginOrSignUpVC.swift; sourceTree = "<group>"; };
+		376E2CE72AF957BF00B201B6 /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
+		378BEF7B2B0482C9005D91C8 /* changeCityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeCityCell.swift; sourceTree = "<group>"; };
+		378C87B12B02A4BE00947117 /* restaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantInfo.swift; sourceTree = "<group>"; };
+		37943DFB2AF6A04200773318 /* authService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authService.swift; sourceTree = "<group>"; };
+		37943DFD2AF6A16600773318 /* registerUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerUserRequest.swift; sourceTree = "<group>"; };
+		37943E002AF6AC2E00773318 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37943E022AF6AE0A00773318 /* loginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUserRequest.swift; sourceTree = "<group>"; };
+		37943E052AF6B1F300773318 /* Homepage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
+		3796A5532B62F93900B82627 /* secondFavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondFavoritesVC.swift; sourceTree = "<group>"; };
+		3796A5552B62F98C00B82627 /* secondFavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondFavoritesCell.swift; sourceTree = "<group>"; };
+		3796A5572B635FE100B82627 /* secondVisitedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVisitedVC.swift; sourceTree = "<group>"; };
+		3796A5592B63601200B82627 /* secondVisitedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVisitedCell.swift; sourceTree = "<group>"; };
+		379B4FF02AF56C6C00DD8649 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		37A3F9E42AFD831300A90D8E /* foodAndCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodAndCity.swift; sourceTree = "<group>"; };
+		37A3F9E62AFDE70D00A90D8E /* searchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchController.swift; sourceTree = "<group>"; };
+		37A3F9E92AFDE95200A90D8E /* homepageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepageVC.swift; sourceTree = "<group>"; };
+		37AA5BAB2B5461FA002BD6A0 /* accountSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountSettings.swift; sourceTree = "<group>"; };
+		37BB79AF2B6AF1E200AA1C09 /* seeAllVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeAllVC.swift; sourceTree = "<group>"; };
+		37BB79B12B6BF33600AA1C09 /* seeAllCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seeAllCell.swift; sourceTree = "<group>"; };
+		37DD29C62AFC1AF3002F4BA3 /* business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = business.swift; sourceTree = "<group>"; };
+		37DD29C82AFC1E7E002F4BA3 /* fetchBusinessInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchBusinessInfo.swift; sourceTree = "<group>"; };
+		37F8B00A2B1A4AF90088A682 /* profileDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDetailCell.swift; sourceTree = "<group>"; };
+		37F8B00C2B1A5B0C0088A682 /* favoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesVC.swift; sourceTree = "<group>"; };
+		37F8B00E2B1A5BF20088A682 /* favoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesCell.swift; sourceTree = "<group>"; };
+		37F8B0102B1AD38E0088A682 /* favoritesSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesSliderCell.swift; sourceTree = "<group>"; };
+		37F8B0122B1E4C0E0088A682 /* favoritesSaved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesSaved.swift; sourceTree = "<group>"; };
+		37F8B0142B2B841E0088A682 /* popUpCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpCard.swift; sourceTree = "<group>"; };
+		37FABCAB2B05128F00A573D3 /* chicagoNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chicagoNeighborhoods.swift; sourceTree = "<group>"; };
+		37FABCAD2B05399700A573D3 /* seattleNeighborhoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seattleNeighborhoods.swift; sourceTree = "<group>"; };
+		37FABCAF2B0542BE00A573D3 /* changeNeighborhoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeNeighborhoodCell.swift; sourceTree = "<group>"; };
+		37FABCB12B05460100A573D3 /* changeNeighborhoodsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeNeighborhoodsVC.swift; sourceTree = "<group>"; };
+		37FABCB32B05491600A573D3 /* changeCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeCityVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3768EB7B2AF53FA700C6DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372804F92B4DB5EC008F4930 /* Lottie in Frameworks */,
+				3768EBBD2AF5410300C6DE64 /* FirebaseDatabaseSwift in Frameworks */,
+				3768EBB52AF5410300C6DE64 /* FirebaseAnalytics in Frameworks */,
+				37943DF82AF69E1B00773318 /* GoogleSignIn in Frameworks */,
+				37943DFA2AF69E2100773318 /* GoogleSignInSwift in Frameworks */,
+				3768EBC72AF5410300C6DE64 /* FirebaseStorageCombine-Community in Frameworks */,
+				3768EBC52AF5410300C6DE64 /* FirebaseStorage in Frameworks */,
+				3768EBB92AF5410300C6DE64 /* FirebaseAuthCombine-Community in Frameworks */,
+				3768EBBB2AF5410300C6DE64 /* FirebaseDatabase in Frameworks */,
+				3768EBB72AF5410300C6DE64 /* FirebaseAuth in Frameworks */,
+				3768EBBF2AF5410300C6DE64 /* FirebaseFirestore in Frameworks */,
+				3768EBC12AF5410300C6DE64 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				3768EBC32AF5410300C6DE64 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3768EB912AF53FAA00C6DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3768EB9B2AF53FAA00C6DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372804FA2B4DB8B3008F4930 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				372804FB2B4DB8C3008F4930 /* Loading.json */,
+				3719997F2B4DEE17008A9E03 /* DotsLoading.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3742A3202B0F2F9E0065896B /* Neighborhoods */ = {
+			isa = PBXGroup;
+			children = (
+				37FABCAB2B05128F00A573D3 /* chicagoNeighborhoods.swift */,
+				37FABCAD2B05399700A573D3 /* seattleNeighborhoods.swift */,
+				3742A3232B0F32CD0065896B /* austinNeighborhoods.swift */,
+				3742A3252B0F33460065896B /* newOrleansNeighborhoods.swift */,
+				3742A3272B11D0D60065896B /* bostonNeighborhoods.swift */,
+				3742A32F2B16F7340065896B /* losAngelesNeighborhoods.swift */,
+				3742A3312B17801A0065896B /* miamiNeighborhoods.swift */,
+				3742A3332B17851F0065896B /* newYorkNeighborhoods.swift */,
+			);
+			path = Neighborhoods;
+			sourceTree = "<group>";
+		};
+		3756C5EF2AFAD397008D0A31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3742A3202B0F2F9E0065896B /* Neighborhoods */,
+				3756C5F02AFAD3B2008D0A31 /* foods.swift */,
+				3756C5F22AFAD69E008D0A31 /* foodCell.swift */,
+				3756C5F42AFADF17008D0A31 /* cities.swift */,
+				3756C5F62AFADFF9008D0A31 /* citiesCell.swift */,
+				375468422AFE8E1B00FA81BC /* searchCell.swift */,
+				378BEF7B2B0482C9005D91C8 /* changeCityCell.swift */,
+				37FABCAF2B0542BE00A573D3 /* changeNeighborhoodCell.swift */,
+				375821FC2B067F4E00E289B5 /* foodIconCell.swift */,
+				375821FE2B06851600E289B5 /* foodEmojis.swift */,
+				3742A31E2B0F2D800065896B /* foodSlider.swift */,
+				3742A32D2B162E120065896B /* accountDetailsCell.swift */,
+				3742A3352B17A7A30065896B /* profileCell.swift */,
+				3742A3372B17CD010065896B /* setSection.swift */,
+				37F8B00A2B1A4AF90088A682 /* profileDetailCell.swift */,
+				37F8B00E2B1A5BF20088A682 /* favoritesCell.swift */,
+				37F8B0102B1AD38E0088A682 /* favoritesSliderCell.swift */,
+				372804F52B4BA19F008F4930 /* visitedCell.swift */,
+				376063262B603E6400557E59 /* followersCell.swift */,
+				376063282B603F5700557E59 /* followingCell.swift */,
+				3760632C2B62BD2B00557E59 /* allFriendsCell.swift */,
+				3796A5552B62F98C00B82627 /* secondFavoritesCell.swift */,
+				3796A5592B63601200B82627 /* secondVisitedCell.swift */,
+				37BB79B12B6BF33600AA1C09 /* seeAllCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3768EB752AF53FA700C6DE64 = {
+			isa = PBXGroup;
+			children = (
+				3768EB802AF53FA700C6DE64 /* Foodie Yelp API */,
+				3768EB972AF53FAA00C6DE64 /* Foodie Yelp APITests */,
+				3768EBA12AF53FAA00C6DE64 /* Foodie Yelp APIUITests */,
+				3768EB7F2AF53FA700C6DE64 /* Products */,
+				37943DF62AF69E1B00773318 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3768EB7F2AF53FA700C6DE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3768EB7E2AF53FA700C6DE64 /* Foodie Yelp API.app */,
+				3768EB942AF53FAA00C6DE64 /* Foodie Yelp APITests.xctest */,
+				3768EB9E2AF53FAA00C6DE64 /* Foodie Yelp APIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3768EB802AF53FA700C6DE64 /* Foodie Yelp API */ = {
+			isa = PBXGroup;
+			children = (
+				372804FA2B4DB8B3008F4930 /* Animations */,
+				37DD29C52AFC1ADE002F4BA3 /* Yelp API */,
+				3756C5EF2AFAD397008D0A31 /* Models */,
+				37943E042AF6B1BF00773318 /* Storyboards */,
+				37943DFF2AF6A17300773318 /* Authentication */,
+				3768EBC82AF54AC600C6DE64 /* LoginViewControllers */,
+				37943E072AF6B20400773318 /* HomePageViewControllers */,
+				3768EB812AF53FA700C6DE64 /* AppDelegate.swift */,
+				3768EB832AF53FA700C6DE64 /* SceneDelegate.swift */,
+				3768EB8C2AF53FA900C6DE64 /* LaunchScreen.storyboard */,
+				3768EB8A2AF53FA900C6DE64 /* Assets.xcassets */,
+				3768EB8F2AF53FAA00C6DE64 /* Info.plist */,
+				37943E002AF6AC2E00773318 /* GoogleService-Info.plist */,
+			);
+			path = "Foodie Yelp API";
+			sourceTree = "<group>";
+		};
+		3768EB972AF53FAA00C6DE64 /* Foodie Yelp APITests */ = {
+			isa = PBXGroup;
+			children = (
+				3768EB982AF53FAA00C6DE64 /* Foodie_Yelp_APITests.swift */,
+			);
+			path = "Foodie Yelp APITests";
+			sourceTree = "<group>";
+		};
+		3768EBA12AF53FAA00C6DE64 /* Foodie Yelp APIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3768EBA22AF53FAA00C6DE64 /* Foodie_Yelp_APIUITests.swift */,
+				3768EBA42AF53FAA00C6DE64 /* Foodie_Yelp_APIUITestsLaunchTests.swift */,
+			);
+			path = "Foodie Yelp APIUITests";
+			sourceTree = "<group>";
+		};
+		3768EBC82AF54AC600C6DE64 /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3768EBC92AF54AE300C6DE64 /* loginOrSignUpVC.swift */,
+				379B4FF02AF56C6C00DD8649 /* loginVC.swift */,
+				3700D72D2AF7378000DA0DA8 /* onboardingFood.swift */,
+				3700D7312AF8A29000DA0DA8 /* onboardingProfile.swift */,
+				3700D72F2AF7420700DA0DA8 /* onboardingCity.swift */,
+				3700D7332AF9366C00DA0DA8 /* forgotPasswordVC.swift */,
+			);
+			path = LoginViewControllers;
+			sourceTree = "<group>";
+		};
+		37943DF62AF69E1B00773318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37943DFF2AF6A17300773318 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				37943DFB2AF6A04200773318 /* authService.swift */,
+				37943DFD2AF6A16600773318 /* registerUserRequest.swift */,
+				37943E022AF6AE0A00773318 /* loginUserRequest.swift */,
+				3700D72B2AF706CE00DA0DA8 /* validation.swift */,
+				37366C612AF98269001ED25B /* user.swift */,
+				374D63D12AFB5269006A0442 /* alertCenter.swift */,
+				37A3F9E42AFD831300A90D8E /* foodAndCity.swift */,
+				37F8B0122B1E4C0E0088A682 /* favoritesSaved.swift */,
+				372804EF2B4B99FF008F4930 /* visitedSaved.swift */,
+				370CAD152B59A26C00E3EEE3 /* topTenSaved.swift */,
+				3760632E2B62C0DB00557E59 /* nameAndUID.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		37943E042AF6B1BF00773318 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3768EB872AF53FA700C6DE64 /* Main.storyboard */,
+				37943E052AF6B1F300773318 /* Homepage.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		37943E072AF6B20400773318 /* HomePageViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				376E2CE72AF957BF00B201B6 /* mapVC.swift */,
+				37A3F9E62AFDE70D00A90D8E /* searchController.swift */,
+				37A3F9E92AFDE95200A90D8E /* homepageVC.swift */,
+				378C87B12B02A4BE00947117 /* restaurantInfo.swift */,
+				37FABCB12B05460100A573D3 /* changeNeighborhoodsVC.swift */,
+				37FABCB32B05491600A573D3 /* changeCityVC.swift */,
+				3742A3392B18DCAB0065896B /* profileDetailed.swift */,
+				37F8B00C2B1A5B0C0088A682 /* favoritesVC.swift */,
+				37F8B0142B2B841E0088A682 /* popUpCard.swift */,
+				372804F12B4B9CCE008F4930 /* visitedVC.swift */,
+				37AA5BAB2B5461FA002BD6A0 /* accountSettings.swift */,
+				376063202B5F6E9700557E59 /* followersAndFollwingVC.swift */,
+				376063222B60337400557E59 /* followersVC.swift */,
+				376063242B60339A00557E59 /* followingVC.swift */,
+				3760632A2B605D5600557E59 /* allFriendsVC.swift */,
+				376063302B62D8B100557E59 /* friendsProfileDetailed.swift */,
+				3796A5532B62F93900B82627 /* secondFavoritesVC.swift */,
+				3796A5572B635FE100B82627 /* secondVisitedVC.swift */,
+				37BB79AF2B6AF1E200AA1C09 /* seeAllVC.swift */,
+			);
+			path = HomePageViewControllers;
+			sourceTree = "<group>";
+		};
+		37DD29C52AFC1ADE002F4BA3 /* Yelp API */ = {
+			isa = PBXGroup;
+			children = (
+				37DD29C62AFC1AF3002F4BA3 /* business.swift */,
+				37DD29C82AFC1E7E002F4BA3 /* fetchBusinessInfo.swift */,
+			);
+			path = "Yelp API";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3768EB7D2AF53FA700C6DE64 /* Foodie Yelp API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3768EBA82AF53FAA00C6DE64 /* Build configuration list for PBXNativeTarget "Foodie Yelp API" */;
+			buildPhases = (
+				3768EB7A2AF53FA700C6DE64 /* Sources */,
+				3768EB7B2AF53FA700C6DE64 /* Frameworks */,
+				3768EB7C2AF53FA700C6DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foodie Yelp API";
+			packageProductDependencies = (
+				3768EBB42AF5410300C6DE64 /* FirebaseAnalytics */,
+				3768EBB62AF5410300C6DE64 /* FirebaseAuth */,
+				3768EBB82AF5410300C6DE64 /* FirebaseAuthCombine-Community */,
+				3768EBBA2AF5410300C6DE64 /* FirebaseDatabase */,
+				3768EBBC2AF5410300C6DE64 /* FirebaseDatabaseSwift */,
+				3768EBBE2AF5410300C6DE64 /* FirebaseFirestore */,
+				3768EBC02AF5410300C6DE64 /* FirebaseFirestoreCombine-Community */,
+				3768EBC22AF5410300C6DE64 /* FirebaseFirestoreSwift */,
+				3768EBC42AF5410300C6DE64 /* FirebaseStorage */,
+				3768EBC62AF5410300C6DE64 /* FirebaseStorageCombine-Community */,
+				37943DF72AF69E1B00773318 /* GoogleSignIn */,
+				37943DF92AF69E2100773318 /* GoogleSignInSwift */,
+				372804F82B4DB5EC008F4930 /* Lottie */,
+			);
+			productName = "Foodie Yelp API";
+			productReference = 3768EB7E2AF53FA700C6DE64 /* Foodie Yelp API.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3768EB932AF53FAA00C6DE64 /* Foodie Yelp APITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3768EBAB2AF53FAA00C6DE64 /* Build configuration list for PBXNativeTarget "Foodie Yelp APITests" */;
+			buildPhases = (
+				3768EB902AF53FAA00C6DE64 /* Sources */,
+				3768EB912AF53FAA00C6DE64 /* Frameworks */,
+				3768EB922AF53FAA00C6DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3768EB962AF53FAA00C6DE64 /* PBXTargetDependency */,
+			);
+			name = "Foodie Yelp APITests";
+			productName = "Foodie Yelp APITests";
+			productReference = 3768EB942AF53FAA00C6DE64 /* Foodie Yelp APITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3768EB9D2AF53FAA00C6DE64 /* Foodie Yelp APIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3768EBAE2AF53FAA00C6DE64 /* Build configuration list for PBXNativeTarget "Foodie Yelp APIUITests" */;
+			buildPhases = (
+				3768EB9A2AF53FAA00C6DE64 /* Sources */,
+				3768EB9B2AF53FAA00C6DE64 /* Frameworks */,
+				3768EB9C2AF53FAA00C6DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3768EBA02AF53FAA00C6DE64 /* PBXTargetDependency */,
+			);
+			name = "Foodie Yelp APIUITests";
+			productName = "Foodie Yelp APIUITests";
+			productReference = 3768EB9E2AF53FAA00C6DE64 /* Foodie Yelp APIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3768EB762AF53FA700C6DE64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3768EB7D2AF53FA700C6DE64 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3768EB932AF53FAA00C6DE64 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3768EB7D2AF53FA700C6DE64;
+					};
+					3768EB9D2AF53FAA00C6DE64 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3768EB7D2AF53FA700C6DE64;
+					};
+				};
+			};
+			buildConfigurationList = 3768EB792AF53FA700C6DE64 /* Build configuration list for PBXProject "Foodie Yelp API" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3768EB752AF53FA700C6DE64;
+			packageReferences = (
+				3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				379B4FF42AF691CB00DD8649 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				372804F72B4DB5EC008F4930 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 3768EB7F2AF53FA700C6DE64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3768EB7D2AF53FA700C6DE64 /* Foodie Yelp API */,
+				3768EB932AF53FAA00C6DE64 /* Foodie Yelp APITests */,
+				3768EB9D2AF53FAA00C6DE64 /* Foodie Yelp APIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3768EB7C2AF53FA700C6DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372804FC2B4DB8C3008F4930 /* Loading.json in Resources */,
+				3768EB8E2AF53FA900C6DE64 /* LaunchScreen.storyboard in Resources */,
+				37943E012AF6AC2E00773318 /* GoogleService-Info.plist in Resources */,
+				37943E062AF6B1F300773318 /* Homepage.storyboard in Resources */,
+				3768EB8B2AF53FA900C6DE64 /* Assets.xcassets in Resources */,
+				371999802B4DEE17008A9E03 /* DotsLoading.json in Resources */,
+				3768EB892AF53FA700C6DE64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3768EB922AF53FAA00C6DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3768EB9C2AF53FAA00C6DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3768EB7A2AF53FA700C6DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372804F02B4B99FF008F4930 /* visitedSaved.swift in Sources */,
+				3760632F2B62C0DB00557E59 /* nameAndUID.swift in Sources */,
+				3796A5542B62F93900B82627 /* secondFavoritesVC.swift in Sources */,
+				37F8B0112B1AD38E0088A682 /* favoritesSliderCell.swift in Sources */,
+				3700D72E2AF7378000DA0DA8 /* onboardingFood.swift in Sources */,
+				37DD29C72AFC1AF3002F4BA3 /* business.swift in Sources */,
+				378C87B22B02A4BF00947117 /* restaurantInfo.swift in Sources */,
+				37FABCB42B05491600A573D3 /* changeCityVC.swift in Sources */,
+				37F8B00D2B1A5B0C0088A682 /* favoritesVC.swift in Sources */,
+				376063252B60339A00557E59 /* followingVC.swift in Sources */,
+				37BB79B22B6BF33600AA1C09 /* seeAllCell.swift in Sources */,
+				375821FF2B06851600E289B5 /* foodEmojis.swift in Sources */,
+				3700D7322AF8A29000DA0DA8 /* onboardingProfile.swift in Sources */,
+				3768EB822AF53FA700C6DE64 /* AppDelegate.swift in Sources */,
+				3742A3242B0F32CD0065896B /* austinNeighborhoods.swift in Sources */,
+				3742A3262B0F33460065896B /* newOrleansNeighborhoods.swift in Sources */,
+				378BEF7C2B0482C9005D91C8 /* changeCityCell.swift in Sources */,
+				3742A3282B11D0D60065896B /* bostonNeighborhoods.swift in Sources */,
+				374D63D22AFB5269006A0442 /* alertCenter.swift in Sources */,
+				37A3F9EA2AFDE95200A90D8E /* homepageVC.swift in Sources */,
+				3742A32E2B162E120065896B /* accountDetailsCell.swift in Sources */,
+				370CAD162B59A26C00E3EEE3 /* topTenSaved.swift in Sources */,
+				3796A5582B635FE100B82627 /* secondVisitedVC.swift in Sources */,
+				376063292B603F5700557E59 /* followingCell.swift in Sources */,
+				3742A3342B17851F0065896B /* newYorkNeighborhoods.swift in Sources */,
+				37366C622AF98269001ED25B /* user.swift in Sources */,
+				3742A3302B16F7340065896B /* losAngelesNeighborhoods.swift in Sources */,
+				37BB79B02B6AF1E200AA1C09 /* seeAllVC.swift in Sources */,
+				37DD29C92AFC1E7E002F4BA3 /* fetchBusinessInfo.swift in Sources */,
+				376063232B60337400557E59 /* followersVC.swift in Sources */,
+				372804F62B4BA19F008F4930 /* visitedCell.swift in Sources */,
+				37F8B0132B1E4C0E0088A682 /* favoritesSaved.swift in Sources */,
+				375468432AFE8E1B00FA81BC /* searchCell.swift in Sources */,
+				37FABCAE2B05399700A573D3 /* seattleNeighborhoods.swift in Sources */,
+				372804F22B4B9CCE008F4930 /* visitedVC.swift in Sources */,
+				3756C5F32AFAD69E008D0A31 /* foodCell.swift in Sources */,
+				37F8B00F2B1A5BF20088A682 /* favoritesCell.swift in Sources */,
+				37943DFC2AF6A04200773318 /* authService.swift in Sources */,
+				3742A3382B17CD010065896B /* setSection.swift in Sources */,
+				37FABCB02B0542BE00A573D3 /* changeNeighborhoodCell.swift in Sources */,
+				3756C5F72AFADFF9008D0A31 /* citiesCell.swift in Sources */,
+				37943E032AF6AE0A00773318 /* loginUserRequest.swift in Sources */,
+				3768EB842AF53FA700C6DE64 /* SceneDelegate.swift in Sources */,
+				375821FD2B067F4E00E289B5 /* foodIconCell.swift in Sources */,
+				379B4FF12AF56C6C00DD8649 /* loginVC.swift in Sources */,
+				376063212B5F6E9700557E59 /* followersAndFollwingVC.swift in Sources */,
+				3756C5F52AFADF17008D0A31 /* cities.swift in Sources */,
+				37AA5BAC2B5461FA002BD6A0 /* accountSettings.swift in Sources */,
+				3700D7302AF7420700DA0DA8 /* onboardingCity.swift in Sources */,
+				37F8B0152B2B841E0088A682 /* popUpCard.swift in Sources */,
+				37A3F9E72AFDE70D00A90D8E /* searchController.swift in Sources */,
+				3760632B2B605D5600557E59 /* allFriendsVC.swift in Sources */,
+				376E2CE82AF957BF00B201B6 /* mapVC.swift in Sources */,
+				3760632D2B62BD2B00557E59 /* allFriendsCell.swift in Sources */,
+				3742A3322B17801A0065896B /* miamiNeighborhoods.swift in Sources */,
+				376063312B62D8B100557E59 /* friendsProfileDetailed.swift in Sources */,
+				376063272B603E6400557E59 /* followersCell.swift in Sources */,
+				3796A5562B62F98C00B82627 /* secondFavoritesCell.swift in Sources */,
+				3756C5F12AFAD3B2008D0A31 /* foods.swift in Sources */,
+				3742A3362B17A7A30065896B /* profileCell.swift in Sources */,
+				3768EBCA2AF54AE300C6DE64 /* loginOrSignUpVC.swift in Sources */,
+				3700D7342AF9366C00DA0DA8 /* forgotPasswordVC.swift in Sources */,
+				37A3F9E52AFD831300A90D8E /* foodAndCity.swift in Sources */,
+				3796A55A2B63601200B82627 /* secondVisitedCell.swift in Sources */,
+				37FABCAC2B05128F00A573D3 /* chicagoNeighborhoods.swift in Sources */,
+				37F8B00B2B1A4AF90088A682 /* profileDetailCell.swift in Sources */,
+				3700D72C2AF706CE00DA0DA8 /* validation.swift in Sources */,
+				37943DFE2AF6A16700773318 /* registerUserRequest.swift in Sources */,
+				37FABCB22B05460100A573D3 /* changeNeighborhoodsVC.swift in Sources */,
+				3742A33A2B18DCAB0065896B /* profileDetailed.swift in Sources */,
+				3742A31F2B0F2D800065896B /* foodSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3768EB902AF53FAA00C6DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3768EB992AF53FAA00C6DE64 /* Foodie_Yelp_APITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3768EB9A2AF53FAA00C6DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3768EBA32AF53FAA00C6DE64 /* Foodie_Yelp_APIUITests.swift in Sources */,
+				3768EBA52AF53FAA00C6DE64 /* Foodie_Yelp_APIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3768EB962AF53FAA00C6DE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3768EB7D2AF53FA700C6DE64 /* Foodie Yelp API */;
+			targetProxy = 3768EB952AF53FAA00C6DE64 /* PBXContainerItemProxy */;
+		};
+		3768EBA02AF53FAA00C6DE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3768EB7D2AF53FA700C6DE64 /* Foodie Yelp API */;
+			targetProxy = 3768EB9F2AF53FAA00C6DE64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3768EB872AF53FA700C6DE64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3768EB882AF53FA700C6DE64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3768EB8C2AF53FA900C6DE64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3768EB8D2AF53FA900C6DE64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3768EBA62AF53FAA00C6DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3768EBA72AF53FAA00C6DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3768EBA92AF53FAA00C6DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Foodie Yelp API/Info.plist";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Please allow access to your photos";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Foodie wants to access your device location, to give you close restaurants";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Foodie wants to access your device location, to give you close restaurants";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VillanuevaJD-Inc.Foodie-Yelp-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3768EBAA2AF53FAA00C6DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Foodie Yelp API/Info.plist";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "Please allow access to your photos";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Foodie wants to access your device location, to give you close restaurants";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Foodie wants to access your device location, to give you close restaurants";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VillanuevaJD-Inc.Foodie-Yelp-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3768EBAC2AF53FAA00C6DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VillanuevaJD-Inc.Foodie-Yelp-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodie Yelp API.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foodie Yelp API";
+			};
+			name = Debug;
+		};
+		3768EBAD2AF53FAA00C6DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VillanuevaJD-Inc.Foodie-Yelp-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodie Yelp API.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Foodie Yelp API";
+			};
+			name = Release;
+		};
+		3768EBAF2AF53FAA00C6DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VillanuevaJD-Inc.Foodie-Yelp-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Foodie Yelp API";
+			};
+			name = Debug;
+		};
+		3768EBB02AF53FAA00C6DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "VillanuevaJD-Inc.Foodie-Yelp-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Foodie Yelp API";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3768EB792AF53FA700C6DE64 /* Build configuration list for PBXProject "Foodie Yelp API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3768EBA62AF53FAA00C6DE64 /* Debug */,
+				3768EBA72AF53FAA00C6DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3768EBA82AF53FAA00C6DE64 /* Build configuration list for PBXNativeTarget "Foodie Yelp API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3768EBA92AF53FAA00C6DE64 /* Debug */,
+				3768EBAA2AF53FAA00C6DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3768EBAB2AF53FAA00C6DE64 /* Build configuration list for PBXNativeTarget "Foodie Yelp APITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3768EBAC2AF53FAA00C6DE64 /* Debug */,
+				3768EBAD2AF53FAA00C6DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3768EBAE2AF53FAA00C6DE64 /* Build configuration list for PBXNativeTarget "Foodie Yelp APIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3768EBAF2AF53FAA00C6DE64 /* Debug */,
+				3768EBB02AF53FAA00C6DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		372804F72B4DB5EC008F4930 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+		3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.17.0;
+			};
+		};
+		379B4FF42AF691CB00DD8649 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		372804F82B4DB5EC008F4930 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 372804F72B4DB5EC008F4930 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		3768EBB42AF5410300C6DE64 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3768EBB62AF5410300C6DE64 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3768EBB82AF5410300C6DE64 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		3768EBBA2AF5410300C6DE64 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3768EBBC2AF5410300C6DE64 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3768EBBE2AF5410300C6DE64 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3768EBC02AF5410300C6DE64 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		3768EBC22AF5410300C6DE64 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		3768EBC42AF5410300C6DE64 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		3768EBC62AF5410300C6DE64 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3768EBB32AF5410300C6DE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		37943DF72AF69E1B00773318 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 379B4FF42AF691CB00DD8649 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		37943DF92AF69E2100773318 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 379B4FF42AF691CB00DD8649 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3768EB762AF53FA700C6DE64 /* Project object */;
+}
