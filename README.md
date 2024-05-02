@@ -20,6 +20,8 @@ I'm going to add a top ten in the future based off each city. That way people ca
 Possibly a counter to, see how many times that place has been visited or favorited.
 
 # Screenshots
+https://youtu.be/Jkuq4J-fZkI
+
 ![Simulator Screenshot - iphone 14 pro - 2024-02-07 at 12 18 26](https://github.com/jdvilla94/Foodie-Yelp-API/assets/44591756/10c14699-b6d6-4b71-b5c3-453cb54689c6)
 ![Simulator Screenshot - iphone 14 pro - 2024-02-07 at 12 56 05](https://github.com/jdvilla94/Foodie-Yelp-API/assets/44591756/6ded7ae4-eb09-491f-9f64-8b9201e961f3)
 ![Simulator Screenshot - iphone 14 pro - 2024-02-07 at 12 44 46](https://github.com/jdvilla94/Foodie-Yelp-API/assets/44591756/cdecae62-ab4b-460c-8181-f7483522e0f0)
